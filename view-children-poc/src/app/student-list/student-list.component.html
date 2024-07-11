@@ -1,0 +1,9 @@
+<div>
+    <h1 style="text-align: center;color: red;"> Student List</h1>
+    <app-student-details *ngFor="let student of students" [student]="student" ></app-student-details>
+
+    <button (click)="selectAll()"> Select All</button>
+    <button (click)="deselectAll()"> Deselect All </button>
+    <button (click)="deleteStudents()"> Delete Selected</button>
+
+</div>

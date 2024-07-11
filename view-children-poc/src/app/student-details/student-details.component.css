@@ -1,0 +1,12 @@
+.box {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
